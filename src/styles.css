@@ -513,6 +513,7 @@ footer {
     width: 100%;
     height: 350px;
     background: black;
+    margin-bottom: 20px;
   }
 
   .luxury-img iframe {
