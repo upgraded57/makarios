@@ -183,9 +183,10 @@ input[type="radio"]#champion:checked ~ span {
   flex-basis: 40%;
 }
 
-.luxury-text h3 {
+.luxury-text h2 {
   color: var(--dark-gold-clr);
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .luxury-carousel {
@@ -325,24 +326,17 @@ input[type="radio"]#champion:checked ~ span {
   color: var(--dark-gold-clr);
 }
 
-.faq-box {
-  margin-top: 10px;
-  background: var(--light-grey-clr);
-  padding: 4vw;
-  border-radius: var(--radius-lg);
-}
-
-.faq {
+.faq-box details:not(:last-child) {
   border-bottom: 2px solid #d9d9d9;
-  margin-bottom: 20px;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
-.faq-head {
+.faq-box details summary {
   display: flex;
   align-items: center;
   gap: 10px;
   margin-bottom: 10px;
+  cursor: pointer;
 }
 
 .faq-body {
