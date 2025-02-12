@@ -1,3 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Makarios | The Luxury Place</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <style>
+
 @import url("https://fonts.googleapis.com/css2?family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montaga&display=swap");
 
@@ -89,7 +101,7 @@ button:active {
   height: calc(100vh - 70px);
   /* padding-inline: 4vw; */
   padding-top: 10vh;
-  background-image: url("./images/hero.webp");
+  background-image: url("<?php echo get_template_directory_uri(); ?>/assets/images/hero-bg.jpg");
   background-size: cover;
   background-position: bottom right;
 }
@@ -505,9 +517,9 @@ footer {
 
   .hero {
     text-align: center;
-    height: 750px;
+    height: 650px;
     padding-top: 8vh;
-    background-image: url("./images/hero-sm.webp");
+    background-image: url("<?php echo get_template_directory_uri(); ?>/assets/images/hero-bg-sm.jpg");
   }
 
   .showcase {
@@ -581,3 +593,6 @@ footer {
     width: 100%;
   }
 }
+
+    </style>
+  </head>

@@ -1,17 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Makarios | The Luxury Place</title>
-    <link rel="stylesheet" href="./src/styles.css" />
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <script src="./src/main.js" defer></script>
-  </head>
+<?php get_header(); ?>
   <body>
     <div class="top-bar">
-      <img src="./src/images/makarios.png" alt="Mikarios" />
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/makarios.png" alt="Mikarios" />
     </div>
 
     <main class="hero">
@@ -69,7 +59,7 @@
               <div class="faq-box">
                 <details data-aos="fade-up">
                   <summary>
-                    <img src="./src/images/faq_open.svg" alt="" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/faq_open.svg" alt="" />
                     <p><b> What is Makarios Luxury Estate? </b></p>
                   </summary>
                   <p>
@@ -80,7 +70,7 @@
                 </details>
                 <details data-aos="fade-up">
                   <summary>
-                    <img src="./src/images/faq_open.svg" alt="" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/faq_open.svg" alt="" />
                     <p><b> Where is Makarios Luxury Estate located? </b></p>
                   </summary>
                   <p>
@@ -90,7 +80,7 @@
                 </details>
                 <details data-aos="fade-up">
                   <summary>
-                    <img src="./src/images/faq_open.svg" alt="" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/faq_open.svg" alt="" />
                     <p>
                       <b>
                         What types of properties are available in Makarios
@@ -106,7 +96,7 @@
                 </details>
                 <details data-aos="fade-up">
                   <summary>
-                    <img src="./src/images/faq_open.svg" alt="" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/faq_open.svg" alt="" />
                     <p>
                       <b>
                         What are the features and finishes of the built-up
@@ -122,7 +112,7 @@
                 </details>
                 <details data-aos="fade-up">
                   <summary>
-                    <img src="./src/images/faq_open.svg" alt="" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/faq_open.svg" alt="" />
                     <p>
                       <b>
                         What infrastructures are available in Makarios Luxury
@@ -144,31 +134,31 @@
             <div class="luxury-carousel">
               <div class="item">
                 <img
-                  src="./src/images/luxury-img-1.webp"
+                  src="<?php echo get_template_directory_uri(); ?>/assets/images/luxury-img-1.webp"
                   alt="Makarios Luxury Place Snapshot"
                 />
               </div>
               <div class="item">
                 <img
-                  src="./src/images/luxury-img-2.webp"
+                  src="<?php echo get_template_directory_uri(); ?>/assets/images/luxury-img-2.webp"
                   alt="Makarios Luxury Place Snapshot"
                 />
               </div>
               <div class="item">
                 <img
-                  src="./src/images/luxury-img-3.webp"
+                  src="<?php echo get_template_directory_uri(); ?>/assets/images/luxury-img-3.webp"
                   alt="Makarios Luxury Place Snapshot"
                 />
               </div>
               <div class="item">
                 <img
-                  src="./src/images/luxury-img-4.webp"
+                  src="<?php echo get_template_directory_uri(); ?>/assets/images/luxury-img-4.webp"
                   alt="Makarios Luxury Place Snapshot"
                 />
               </div>
               <div class="item">
                 <img
-                  src="./src/images/luxury-img-5.webp"
+                  src="<?php echo get_template_directory_uri(); ?>/assets/images/luxury-img-5.webp"
                   alt="Makarios Luxury Place Snapshot"
                 />
               </div>
@@ -187,139 +177,139 @@
             <div class="features">
               <div class="feature" data-aos="fade-up">
                 <span>
-                  <img src="./src/images/check_icon.svg" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/check_icon.svg" alt="" />
                 </span>
                 <p>24 Hour Power Supply</p>
               </div>
               <div class="feature" data-aos="fade-up">
                 <span>
-                  <img src="./src/images/check_icon.svg" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/check_icon.svg" alt="" />
                 </span>
                 <p>24 Hour Water Supply</p>
               </div>
               <div class="feature" data-aos="fade-up">
                 <span>
-                  <img src="./src/images/check_icon.svg" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/check_icon.svg" alt="" />
                 </span>
-                <p>2CCTV</p>
+                <p>CCTV</p>
               </div>
               <div class="feature" data-aos="fade-up">
                 <span>
-                  <img src="./src/images/check_icon.svg" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/check_icon.svg" alt="" />
                 </span>
                 <p>Bathtub</p>
               </div>
               <div class="feature" data-aos="fade-up">
                 <span>
-                  <img src="./src/images/check_icon.svg" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/check_icon.svg" alt="" />
                 </span>
                 <p>Gym</p>
               </div>
               <div class="feature" data-aos="fade-up">
                 <span>
-                  <img src="./src/images/check_icon.svg" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/check_icon.svg" alt="" />
                 </span>
                 <p>Kids Playground</p>
               </div>
               <div class="feature" data-aos="fade-up">
                 <span>
-                  <img src="./src/images/check_icon.svg" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/check_icon.svg" alt="" />
                 </span>
                 <p>Estate Lounge</p>
               </div>
               <div class="feature" data-aos="fade-up">
                 <span>
-                  <img src="./src/images/check_icon.svg" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/check_icon.svg" alt="" />
                 </span>
                 <p>Dancing water display</p>
               </div>
               <div class="feature" data-aos="fade-up">
                 <span>
-                  <img src="./src/images/check_icon.svg" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/check_icon.svg" alt="" />
                 </span>
                 <p>Electricity</p>
               </div>
               <div class="feature" data-aos="fade-up">
                 <span>
-                  <img src="./src/images/check_icon.svg" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/check_icon.svg" alt="" />
                 </span>
                 <p>Earth Road</p>
               </div>
               <div class="feature" data-aos="fade-up">
                 <span>
-                  <img src="./src/images/check_icon.svg" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/check_icon.svg" alt="" />
                 </span>
                 <p>Elevator</p>
               </div>
               <div class="feature" data-aos="fade-up">
                 <span>
-                  <img src="./src/images/check_icon.svg" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/check_icon.svg" alt="" />
                 </span>
                 <p>Laundary</p>
               </div>
               <div class="feature" data-aos="fade-up">
                 <span>
-                  <img src="./src/images/check_icon.svg" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/check_icon.svg" alt="" />
                 </span>
                 <p>Fully Fitted Kitchen</p>
               </div>
               <div class="feature" data-aos="fade-up">
                 <span>
-                  <img src="./src/images/check_icon.svg" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/check_icon.svg" alt="" />
                 </span>
                 <p>Lawn</p>
               </div>
               <div class="feature" data-aos="fade-up">
                 <span>
-                  <img src="./src/images/check_icon.svg" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/check_icon.svg" alt="" />
                 </span>
                 <p>Gate House</p>
               </div>
               <div class="feature" data-aos="fade-up">
                 <span>
-                  <img src="./src/images/check_icon.svg" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/check_icon.svg" alt="" />
                 </span>
                 <p>Shopping Mall</p>
               </div>
               <div class="feature" data-aos="fade-up">
                 <span>
-                  <img src="./src/images/check_icon.svg" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/check_icon.svg" alt="" />
                 </span>
                 <p>Good Drainage</p>
               </div>
               <div class="feature" data-aos="fade-up">
                 <span>
-                  <img src="./src/images/check_icon.svg" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/check_icon.svg" alt="" />
                 </span>
                 <p>Perimeter Fencing</p>
               </div>
               <div class="feature" data-aos="fade-up">
                 <span>
-                  <img src="./src/images/check_icon.svg" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/check_icon.svg" alt="" />
                 </span>
                 <p>Street Light</p>
               </div>
               <div class="feature" data-aos="fade-up">
                 <span>
-                  <img src="./src/images/check_icon.svg" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/check_icon.svg" alt="" />
                 </span>
                 <p>Tennis Court</p>
               </div>
               <div class="feature" data-aos="fade-up">
                 <span>
-                  <img src="./src/images/check_icon.svg" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/check_icon.svg" alt="" />
                 </span>
                 <p>Water Fountain</p>
               </div>
               <div class="feature" data-aos="fade-up">
                 <span>
-                  <img src="./src/images/check_icon.svg" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/check_icon.svg" alt="" />
                 </span>
                 <p>Swimming Pool</p>
               </div>
               <div class="feature" data-aos="fade-up">
                 <span>
-                  <img src="./src/images/check_icon.svg" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/check_icon.svg" alt="" />
                 </span>
                 <p>WiFi</p>
               </div>
@@ -383,7 +373,7 @@
               <div class="faq-box">
                 <details data-aos="fade-up">
                   <summary>
-                    <img src="./src/images/faq_open.svg" alt="" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/faq_open.svg" alt="" />
                     <p><b>What makes Makarios Champion Estate unique?</b></p>
                   </summary>
                   <p>
@@ -395,7 +385,7 @@
                 </details>
                 <details data-aos="fade-up">
                   <summary>
-                    <img src="./src/images/faq_open.svg" alt="" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/faq_open.svg" alt="" />
                     <p>
                       <b>What amenities are available in the estate? </b>
                     </p>
@@ -409,7 +399,7 @@
                 </details>
                 <details data-aos="fade-up">
                   <summary>
-                    <img src="./src/images/faq_open.svg" alt="" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/faq_open.svg" alt="" />
                     <p>
                       <b>
                         What kind of community can I expect at Makarios Champion
@@ -425,7 +415,7 @@
                 </details>
                 <details data-aos="fade-up">
                   <summary>
-                    <img src="./src/images/faq_open.svg" alt="" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/faq_open.svg" alt="" />
                     <p>
                       <b> What type of lifestyle does the estate cater to? </b>
                     </p>
@@ -438,7 +428,7 @@
                 </details>
                 <details data-aos="fade-up">
                   <summary>
-                    <img src="./src/images/faq_open.svg" alt="" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/faq_open.svg" alt="" />
                     <p>
                       <b>
                         How accessible is the estate from major areas in Lagos?
@@ -452,7 +442,7 @@
                 </details>
                 <details data-aos="fade-up">
                   <summary>
-                    <img src="./src/images/faq_open.svg" alt="" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/faq_open.svg" alt="" />
                     <p>
                       <b>
                         What is the vision behind the estate&apos;s design?
@@ -474,139 +464,139 @@
             <div class="features">
               <div class="feature" data-aos="fade-up">
                 <span>
-                  <img src="./src/images/check_icon.svg" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/check_icon.svg" alt="" />
                 </span>
                 <p>24 Hour Power Supply</p>
               </div>
               <div class="feature" data-aos="fade-up">
                 <span>
-                  <img src="./src/images/check_icon.svg" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/check_icon.svg" alt="" />
                 </span>
                 <p>24 Hour Water Supply</p>
               </div>
               <div class="feature" data-aos="fade-up">
                 <span>
-                  <img src="./src/images/check_icon.svg" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/check_icon.svg" alt="" />
                 </span>
-                <p>2CCTV</p>
+                <p>CCTV</p>
               </div>
               <div class="feature" data-aos="fade-up">
                 <span>
-                  <img src="./src/images/check_icon.svg" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/check_icon.svg" alt="" />
                 </span>
                 <p>Bathtub</p>
               </div>
               <div class="feature" data-aos="fade-up">
                 <span>
-                  <img src="./src/images/check_icon.svg" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/check_icon.svg" alt="" />
                 </span>
                 <p>Gym</p>
               </div>
               <div class="feature" data-aos="fade-up">
                 <span>
-                  <img src="./src/images/check_icon.svg" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/check_icon.svg" alt="" />
                 </span>
                 <p>Kids Playground</p>
               </div>
               <div class="feature" data-aos="fade-up">
                 <span>
-                  <img src="./src/images/check_icon.svg" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/check_icon.svg" alt="" />
                 </span>
                 <p>Estate Lounge</p>
               </div>
               <div class="feature" data-aos="fade-up">
                 <span>
-                  <img src="./src/images/check_icon.svg" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/check_icon.svg" alt="" />
                 </span>
                 <p>Dancing water display</p>
               </div>
               <div class="feature" data-aos="fade-up">
                 <span>
-                  <img src="./src/images/check_icon.svg" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/check_icon.svg" alt="" />
                 </span>
                 <p>Electricity</p>
               </div>
               <div class="feature" data-aos="fade-up">
                 <span>
-                  <img src="./src/images/check_icon.svg" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/check_icon.svg" alt="" />
                 </span>
                 <p>Earth Road</p>
               </div>
               <div class="feature" data-aos="fade-up">
                 <span>
-                  <img src="./src/images/check_icon.svg" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/check_icon.svg" alt="" />
                 </span>
                 <p>Elevator</p>
               </div>
               <div class="feature" data-aos="fade-up">
                 <span>
-                  <img src="./src/images/check_icon.svg" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/check_icon.svg" alt="" />
                 </span>
                 <p>Laundary</p>
               </div>
               <div class="feature" data-aos="fade-up">
                 <span>
-                  <img src="./src/images/check_icon.svg" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/check_icon.svg" alt="" />
                 </span>
                 <p>Fully Fitted Kitchen</p>
               </div>
               <div class="feature" data-aos="fade-up">
                 <span>
-                  <img src="./src/images/check_icon.svg" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/check_icon.svg" alt="" />
                 </span>
                 <p>Lawn</p>
               </div>
               <div class="feature" data-aos="fade-up">
                 <span>
-                  <img src="./src/images/check_icon.svg" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/check_icon.svg" alt="" />
                 </span>
                 <p>Gate House</p>
               </div>
               <div class="feature" data-aos="fade-up">
                 <span>
-                  <img src="./src/images/check_icon.svg" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/check_icon.svg" alt="" />
                 </span>
                 <p>Shopping Mall</p>
               </div>
               <div class="feature" data-aos="fade-up">
                 <span>
-                  <img src="./src/images/check_icon.svg" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/check_icon.svg" alt="" />
                 </span>
                 <p>Good Drainage</p>
               </div>
               <div class="feature" data-aos="fade-up">
                 <span>
-                  <img src="./src/images/check_icon.svg" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/check_icon.svg" alt="" />
                 </span>
                 <p>Perimeter Fencing</p>
               </div>
               <div class="feature" data-aos="fade-up">
                 <span>
-                  <img src="./src/images/check_icon.svg" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/check_icon.svg" alt="" />
                 </span>
                 <p>Street Light</p>
               </div>
               <div class="feature" data-aos="fade-up">
                 <span>
-                  <img src="./src/images/check_icon.svg" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/check_icon.svg" alt="" />
                 </span>
                 <p>Tennis Court</p>
               </div>
               <div class="feature" data-aos="fade-up">
                 <span>
-                  <img src="./src/images/check_icon.svg" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/check_icon.svg" alt="" />
                 </span>
                 <p>Water Fountain</p>
               </div>
               <div class="feature" data-aos="fade-up">
                 <span>
-                  <img src="./src/images/check_icon.svg" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/check_icon.svg" alt="" />
                 </span>
                 <p>Swimming Pool</p>
               </div>
               <div class="feature" data-aos="fade-up">
                 <span>
-                  <img src="./src/images/check_icon.svg" alt="" />
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/check_icon.svg" alt="" />
                 </span>
                 <p>WiFi</p>
               </div>
@@ -724,12 +714,4 @@
       </div>
     </section>
 
-    <footer>Copyright © 2025 Makarios Luxury</footer>
-
-    <script>
-      AOS.init({
-        duration: 800,
-      });
-    </script>
-  </body>
-</html>
+<?php get_footer(); ?>
