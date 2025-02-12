@@ -510,10 +510,6 @@ footer {
     background-image: url("./images/hero-sm.webp");
   }
 
-  .hero button {
-    width: 100%;
-  }
-
   .showcase {
     border-radius: var(--radius-md);
     top: -20px;
