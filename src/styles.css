@@ -283,6 +283,10 @@ input[type="radio"]#champion:checked ~ span {
   margin-top: 50px;
 }
 
+.pricing h2 {
+  color: var(--dark-gold-clr);
+}
+
 .pricing .table-container {
   width: 100%;
   overflow-x: scroll;
