@@ -168,7 +168,7 @@ input[type="radio"]#champion:checked ~ span {
   flex-basis: 60%;
   width: 100%;
   overflow: hidden;
-  border-radius: var(--radius-lg);
+  border-radius: var(--radius-md);
 }
 
 .luxury-img img {
