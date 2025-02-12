@@ -6,7 +6,7 @@
   --pry-clr: #636262;
   --light-gold-clr: #fff4d8;
   --dark-gold-clr: #d39b10;
-  --green-clr: #154633;
+  --green-clr: #154533;
   --light-grey-clr: #f0f0f0;
   --radius-sm: 5px;
   --radius-md: 8px;
@@ -75,7 +75,7 @@ button:active {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: var(--black-clr);
+  background: var(--green-clr);
 }
 
 .top-bar img {
