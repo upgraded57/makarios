@@ -18,6 +18,7 @@
   margin: 0;
   box-sizing: border-box;
   color: var(--pry-clr);
+  scroll-behavior: smooth;
 }
 
 h1,
@@ -88,9 +89,9 @@ button:active {
   height: calc(100vh - 70px);
   /* padding-inline: 4vw; */
   padding-top: 10vh;
-  background-image: url(./images/hero-bg.jpg);
+  background-image: url("./images/hero.webp");
   background-size: cover;
-  background-position: bottom 10px right 30%;
+  background-position: bottom right;
 }
 
 .hero-content {
@@ -111,7 +112,7 @@ button:active {
 
 .hero button {
   max-width: 600px;
-  background: var(--black-clr);
+  background: #154533;
   color: white;
 }
 
@@ -122,7 +123,9 @@ button:active {
 }
 
 .showcase {
-  background: var(--light-gold-clr);
+  background: white;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
   border-radius: var(--radius-lg);
   padding: 4vw;
   position: relative;
@@ -238,8 +241,12 @@ input[type="radio"]#champion:checked ~ span {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: var(--light-grey-clr);
-  border: 1px solid var(--dark-gold-clr);
+  background: white;
+  border: 1px solid var(--green-clr);
+}
+
+.luxury-container .cursors span:first-child {
+  background: var(--green-clr);
 }
 
 .luxury-features h2 {
@@ -293,8 +300,15 @@ input[type="radio"]#champion:checked ~ span {
   border-spacing: 30px 10px;
   table-layout: auto;
   white-space: nowrap;
-  border-radius: 20px;
   background: white;
+  border: 1px solid var(--light-grey-clr);
+}
+
+.pricing table thead {
+  background: var(--green-clr);
+}
+.pricing table thead td {
+  color: white;
 }
 
 .pricing table tr:not(:last-child) {
@@ -487,12 +501,9 @@ footer {
 
   .hero {
     text-align: center;
-    background-image: url(./images/hero-bg-sm.jpg);
-    background-size: contain;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    height: 650px;
+    height: 750px;
     padding-top: 8vh;
+    background-image: url("./images/hero-sm.webp");
   }
 
   .hero button {
